@@ -20,3 +20,21 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+#messagesList{
+    overflow-y: scroll;
+}
+
+#messagesList::-webkit-scrollbar{
+    width: 12px;
+}
+
+#messagesList::-webkit-scrollbar-track{
+    background: #cec4c4;
+}
+
+#messagesList::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 20px;
+    border: 3px solid #cec4c4;
+}
